@@ -20,14 +20,19 @@ def ler_opcao(mensagem, opcoes_validas):
 valor_aluguel = 0
 valor_contrato = 2000.00
 
+#Menu de Seleção
 print("=== GERADOR DE ORÇAMENTO - IMOBILIÁRIA R.M ===")
 print("1 - Apartamento")
 print("2 - Casa")
 print("3 - Estúdio")
 
+#Entrada do Usuário
+
 opcao = ler_inteiro("Escolha o tipo de imóvel (1-3): ", 1, 3)
 
 tipo_imovel = ""
+
+#Condições
 
 if opcao == 1:
     tipo_imovel = "Apartamento"
