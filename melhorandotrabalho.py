@@ -66,7 +66,7 @@ elif opcao == 3:
     tipo_imovel = "Estúdio"
     valor_aluguel = 1200.00
 
-    estacionamento = input("Deseja vagas de estacionamento? (S/N): ").upper()
+        estacionamento = ler_opcao("Deseja vagas de estacionamento? (S/N): " ,["S", "N"])
     if estacionamento == "S":
         valor_aluguel += 250.00
         adicionais = int(input("Quantas vagas adicionais deseja? "))
